@@ -1,0 +1,88 @@
+body{
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #005086;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+    width: 100vw;
+    color: #b0cac7;
+}
+
+header h2{
+    
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+header p{
+    margin: 0 20px 0 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main #cidade{
+    font-variant-caps: all-petite-caps;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #b0cac7;
+    
+}
+
+main #temperatura{
+    color: #b0cac7;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    font-size: 100px;
+}
+
+.celsius{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.celsius #c{
+    color: #b0cac7;
+    margin: 10px 0 20px 0;
+    font-size: 50px;
+}
+
+#descricao{
+    display: none;
+    color: #b0cac7;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#formulario{
+    background-color: #b0cac7;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0E487B;
+    width: 300px;
+    height: 50px;
+}
